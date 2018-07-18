@@ -16,6 +16,9 @@ int main(int argc, char* argv[]){
 		argv1 = atoi(argv[1]);
 		argv2 = atoi(argv[2]);
 		printf("The sum of argv[1] and argv[2]: %d\n", add(argv1, argv2));
+		printf("The product of argv[1] and argv[2]: %d\n", multiply(argv1, argv2));
+		printf("The difference of argv[1] and argv[2]: %d\n", subtract(argv1, argv2));
+		printf("The modulus of argv[1] and argv[2]: %d\n", divide(argv1, argv2));
 		}
 	}
 	return 0;
